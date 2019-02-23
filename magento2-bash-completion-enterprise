@@ -114,4 +114,4 @@ _magento2()
     COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
     __ltrim_colon_completions "$cur"
 }
-complete -o default -F _magento2 magento
+complete -o default -F _magento2 magento m
